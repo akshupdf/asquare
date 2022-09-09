@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/asquare/static/css/main.a5cb3ca7.css",
+    "main.js": "/asquare/static/js/main.4cfee520.js",
+    "static/js/787.cda612ba.chunk.js": "/asquare/static/js/787.cda612ba.chunk.js",
+    "static/media/leaf.jpg": "/asquare/static/media/leaf.edfc46cfd20bd530796c.jpg",
+    "static/media/pump.jpg": "/asquare/static/media/pump.de6df1604de010dfce85.jpg",
+    "static/media/h5.jpg": "/asquare/static/media/h5.a145605cf9a46f7f1d99.jpg",
+    "static/media/abo.jpg": "/asquare/static/media/abo.3b498b33414a90de34f9.jpg",
+    "static/media/greens.jpeg": "/asquare/static/media/greens.1eba48359a568bafe07c.jpeg",
+    "static/media/hydroo.jpg": "/asquare/static/media/hydroo.c00158fd13df7a36df4d.jpg",
+    "static/media/h2.jpg": "/asquare/static/media/h2.1fe856f546257d6172b7.jpg",
+    "static/media/hydro.jpg": "/asquare/static/media/hydro.f8b6a386c3f6d87de141.jpg",
+    "static/media/tempo.png": "/asquare/static/media/tempo.12970bd3bef1ea9b633d.png",
+    "static/media/h4.jpg": "/asquare/static/media/h4.20066a5d037d12eb58c1.jpg",
+    "static/media/tray.jpg": "/asquare/static/media/tray.84ed5c50d7b245523cfe.jpg",
+    "static/media/cus.jpg": "/asquare/static/media/cus.54bca05266727eec06ba.jpg",
+    "static/media/h3.jpg": "/asquare/static/media/h3.95cb9820f751534fb6b3.jpg",
+    "static/media/h1.jpg": "/asquare/static/media/h1.7728f1b635bfcf660f47.jpg",
+    "static/media/logo.jpeg": "/asquare/static/media/logo.d791c1437f717ea69bd7.jpeg",
+    "static/media/playstore.png": "/asquare/static/media/playstore.82b4831979e0ce7c733e.png",
+    "static/media/Appstore.png": "/asquare/static/media/Appstore.d0c5839937e3c36285f6.png",
+    "static/media/slick.svg": "/asquare/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/asquare/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/asquare/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/asquare/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/asquare/index.html",
+    "main.a5cb3ca7.css.map": "/asquare/static/css/main.a5cb3ca7.css.map",
+    "main.4cfee520.js.map": "/asquare/static/js/main.4cfee520.js.map",
+    "787.cda612ba.chunk.js.map": "/asquare/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5cb3ca7.css",
+    "static/js/main.4cfee520.js"
+  ]
+}
