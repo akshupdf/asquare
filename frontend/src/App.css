@@ -1,0 +1,387 @@
+
+.nav li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav{
+  display: flex;
+  padding: 5px;
+  margin: 0px;
+  background-color: rgb(184, 224, 143);
+  
+}
+.nav a{
+  margin: 2px;
+  width: 100px;
+  height: 100%;
+}
+.nav li a{
+  text-decoration: none;
+  color: rgb(5, 97, 10);
+}
+.container{
+  position: relative;
+  width: 100%;
+}
+.container img{
+  width: 100%;
+}
+footer{
+ 
+  position: absolute;
+  margin-top: 5px;
+  background-color: rgb(97, 197, 94);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1vmax;
+}
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.2vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.midFooter {
+  width: 60%;
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 4vmax;
+  font-family: "Roboto";
+  color: #23990c;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+  
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+  padding: 5px;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+.image{
+  
+  position: absolute;
+  
+  height: 100%;
+  width: 100%;
+
+}
+.login{
+  background-color: #93ee5e;
+  display: flex;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 530px;
+  margin-bottom: 250px;
+  width: 820px;
+  margin: 15px;
+}
+
+.inbutbt{
+  width: 25%;
+  margin-top: 6px;
+}
+.inputBox{
+  position: absolute;
+  width: 600px;
+  padding: 15px 30px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+.login:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.appButton{
+  background-color: #205e1d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  align-self: center;
+  float: right;
+}
+.textarea {
+  width: 600px;
+  height: 250px;
+  margin: 17px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  
+  
+}
+.foot{
+  display: flex;
+}
+.center-foot{
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  background: url('./images/leaf.jpg');
+  height: 650px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: white; 
+
+}
+.about{
+  display: flex;
+  background-color: #24b866;
+  
+}
+.about h2{
+  
+  text-decoration: underline;
+}
+.about h3 {
+  color: #f8f8f8;
+  font-style: italic;
+  
+}
+.contact h3{
+  color: #85ee71;
+}
+.matrix{
+  padding: 5px;
+
+}
+.home{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.immm{
+  height: 30%;
+  width: 20%;
+}
+.im{
+  height: 80%;
+  width: 80%;
+}
+
+.social{
+  display: block;
+  padding: 10px;
+}
+.container-slider {
+  max-width: 700px;
+  height: 400px;
+  margin: 50px auto 0;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 600px){
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.Slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+.prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-60%);
+}
+.next {
+  position: relative;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+}
+.container-dots {
+  position: relative;
+  bottom: 4px;
+  
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: #070606;
+}
+.dot.active {
+  background: rgb(32, 32, 32);
+}
+.container{
+  height: 100%;
+  width: 100%;
+  
+}
+.container-h{
+  position: absolute;
+  border: 2px solid black;
+  top: 300px;
+  background-color: #92f080;
+  height: 200px;
+  left: 290px;
+  width: 1000px;
+  font-size: 30px;
+  padding: 5px;
+  font-style: italic;
+  color: #2e9918;
+}
+.container-h h1{
+ margin: 3px;
+}
+.slider{
+  margin: 5px;
+  align-items: center;
+}
+
+.card{
+  height: 100%;
+  background-image: url('./images/hydro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+}
+.card-top{
+  height: 600px;
+  width: 100%;
+}
+.cart{
+  height: 100%;
+}
+.car img{
+  height: 50%;
+  width: 40%;
+  
+}
+.car{
+  background-color: #a2e295;
+  height: 450px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  justify-content: center;
+  border: 2px solid black;
+}
+.slick-slider {
+  margin:10px;
+  color: #000;
+}
+.slick-slide {
+  padding:5px;
+  margin-right:5px;
+  margin-left:5px;
+  width: 100%;
+}
+
+.nav li{
+  font-size: 20px;
+  text-decoration: underline;
+  font: bold; 
+  font-style: italic;
+} 
+.slick-prev:before, .slick-next:before {
+  position: relative;
+  color: #000;
+  background-color: #000;
+  padding: 10px;
+  margin: -8px;
+}
+.about{
+  height: 100%;
+  width: 100%;
+  
+}
